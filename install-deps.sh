@@ -60,6 +60,8 @@ installcask the-unarchiver
 installcask transmission
 installcask vlc
 
+installcask eclipse-ide
+
 # Remove outdated versions from the cellar
 brew cleanup
 
