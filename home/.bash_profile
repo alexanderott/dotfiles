@@ -1,6 +1,12 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
+# Add other stuff to the PATH
+export PATH="/Applications/MAMP/Library/bin:$PATH"
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=/Applications/MAMP/bin/php/php5.5.3/bin:$PATH
+export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=256m -XX:PermSize=256m"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
